@@ -1,0 +1,48 @@
+apiVersion: v2
+stacks:
+- id: new-stack
+  name: Starter Sample
+  version: 0.1.1
+  description: Runnable starter stack, copy to create a new stack
+  license: Apache-2.0
+  language: bash
+  maintainers:
+  - name: Henry Nash
+    email: henry.nash@uk.ibm.com
+    github-id: henrynash
+  default-template: simple
+  templates:
+  - id: simple
+    url: file:///C:/Users/Anton.Rusev/.appsody/stacks/dev.local/new-stack.v0.1.1.templates.simple.tar.gz
+- id: example-express
+  name: Node.js Express
+  version: 0.4.0
+  description: Express web framework for Node.js
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: Sam Roberts
+    email: vieuxtech@gmail.com
+    github-id: sam-github
+  default-template: simple
+  templates:
+  - id: scaffold
+    url: file:///C:/Users/Anton.Rusev/.appsody/stacks/dev.local/example-express.v0.4.0.templates.scaffold.tar.gz
+  - id: simple
+    url: file:///C:/Users/Anton.Rusev/.appsody/stacks/dev.local/example-express.v0.4.0.templates.simple.tar.gz
+- id: example-nodejs
+  name: Node.js Express
+  version: 0.4.0
+  description: Express web framework for Node.js
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: Sam Roberts
+    email: vieuxtech@gmail.com
+    github-id: sam-github
+  default-template: simple
+  templates:
+  - id: scaffold
+    url: file:///C:/Users/Anton.Rusev/.appsody/stacks/dev.local/example-nodejs.v0.4.0.templates.scaffold.tar.gz
+  - id: simple
+    url: file:///C:/Users/Anton.Rusev/.appsody/stacks/dev.local/example-nodejs.v0.4.0.templates.simple.tar.gz
